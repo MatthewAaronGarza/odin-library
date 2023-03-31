@@ -5,6 +5,7 @@ function Book(title, author, readStatus) {
     this.title = title
     this.author = author
     this.readStatus = readStatus //this is a bool that is true for read, false for not read
+    return this
 }
 
 function addBookToLibrary() {
