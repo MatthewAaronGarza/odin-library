@@ -10,5 +10,8 @@ function Book(title, author, readStatus) {
 function addBookToLibrary() {
   // do stuff here
 
-  
+
 }
+
+// the below is saying that our favoriteBook is Macbeth, William Shakespeare is the author, and that we have read it
+let favoriteBook = Book('Macbeth', 'William Shakespeare', true)
